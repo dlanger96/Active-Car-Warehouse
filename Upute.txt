@@ -1,0 +1,16 @@
+Postupak pokretanja baze
+
+1) Pokrenuti pgAdmin 4 i desnim klikom na "Databases" kreirati bazu pod nazivom "test"
+2) Pokrenuti CMD (Command prompt)
+3) Naći putanju gdje je instaliran PostgreSQL ( moja putanja je bila: C:\Program Files\PostgreSQL\12\bin )
+4) Unutar CMD-a napisati naredbu: "cd C:\Program Files\PostgreSQL\12\bin (ili neko drugo mjesto gdje je aplikacija instalirana)"
+5) Nakon što smo se pozicionirali unutar direktorija upisati naredbu: "psql -U naziv_vašeg_korisnika -d test -1 -f C:\DominikLangerTBP\dlanger_dump_baze.sql (ili neka druga putanja ovisno gdje je dump baze pohranjen)
+6) Unesti lozinku i pričekati da se baza uveze, nakon što je proces uvoza baze završio zatvoriti cmd, ali pgAdmin 4 ne gasiti.
+7) Ako upute nisu jasne možete pogledati video materijal na linku: https://www.youtube.com/watch?v=ng60lcr1jBU
+
+Pokretanje Desktop Aplikacije
+
+1) Ući u mapu Tbp_projekt
+2) Dvostrukim klikom pokrenuti Tbp_projekt.sln
+3) Unutar klase Povezivanje.cs, unutar funkcije Povezi postaviti User ID= na ime vašeg korisnika, isto napraviti i za Password
+3) Pritisnuti F5 za pokretanje glavnog izbornika
