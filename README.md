@@ -13,7 +13,11 @@ Za realizaciju ovog projekta koristio sam aktivne i temporalne baze podataka, a 
 
 ### ERA model
 
-<img align="center" alt="ERA" width="40px" src=""/>
+<img align="center" alt="ERA"  src="https://raw.githubusercontent.com/dlanger96/Active-Car-Warehouse/master/Slike/ERA_TBP.jpg"/>
+
+<br />
+<br/>
+
 
 - Automobil središnja je tablica modela i sadrži sve informacije o automobilima koji se nalaze na skladištu. Tablica Automobil sadrži jedinstveni "id" automobila prema kojemu ga i identificiramo unutar skladišta. Dodatno su definirane informacije kao što su VIN, Naziv, Godina proizvodnje i nekima možda i najbitniji aspekt, a to je cijena. Osim informacija koje jedinstveno definiraju automobil moramo i definirati elemente koji će se odnositi na skladište i vođenje istoga. Za skladište neophodne su informacije o minimalnim količinama i količini naručivanja. Minimalne količine nam predstavljaju vrijednost ispod koje je potrebno naručiti vozila, a količina naručivanja definira koliko ustvari moramo naručiti.
 - Proizvođač - Automobile možemo dodatno razlikovati po proizvođačima. Svaki proizvođač ima određenu reputaciju i uz njegov naziv veže se određena razina pouzdanosti u marku ili određena doza skepticizma prema marci.
@@ -23,5 +27,9 @@ Za realizaciju ovog projekta koristio sam aktivne i temporalne baze podataka, a 
 - Evidencija skladišta - Evidencija je ovdje kako bi se moglo detaljno vidjeti kada i za koliko se dogodila promjena na skladištu. Jesu li se dodali ili oduzeli određeni automobili. Koliko je stanje bilo prije promjene i koliko je stanje nakon promjene. 
 - Nabava automobila - Padne li stanje automobila ispod minimalne količine odmah se započinje proces nabave automobila. Bilježi se stanje na skladištu i uz to stanje definira se datum, vidimo i količinu koja se treba naručiti. Datum zaprimanja se neće upisati sve dok osoba unutar narudžbenice ne unese koliko je automobila zaprimila i kada.
 - Narudžbenica - Sadrži naziv automobila koji je naručen, korisnik definira koliko je automobila zaprimio, a u stupcu do piše kolika je količina naručena. Vidimo i ključeve prema automobilu i nabavi automobila. 
+
+### Izgled desktop aplikacije
+
+<img align="center" alt="Desktop"  src="https://raw.githubusercontent.com/dlanger96/Active-Car-Warehouse/master/Slike/Tbp_projekt_KjrW4SXNnL.png"/>
 
 
