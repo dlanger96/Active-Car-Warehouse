@@ -162,6 +162,7 @@ END;
 
 <center> Okidač za dodavanje novog automobila na skladište </center>
 <br></br>
+
 ### Vođenje evidencije skladišta
 
 ---
