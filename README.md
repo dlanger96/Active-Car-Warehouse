@@ -23,7 +23,7 @@ Za realizaciju ovog projekta koristio sam aktivne i temporalne baze podataka, a 
 <img align="center" alt="ERA"  src="https://raw.githubusercontent.com/dlanger96/Active-Car-Warehouse/master/Slike/ERA_TBP.jpg"/>
 <br />
 <br />
-<<div align="center">>ERA model</div>
+<div align="center">ERA model</div>
 
 <br />
 <br/>
@@ -43,7 +43,7 @@ Za realizaciju ovog projekta koristio sam aktivne i temporalne baze podataka, a 
 
 <img align="center" alt="Desktop"  src="https://raw.githubusercontent.com/dlanger96/Active-Car-Warehouse/master/Slike/Tbp_projekt_KjrW4SXNnL.png"/>
 
-<br><center>Početni izbornik</center></br>
+<br><div align="center">Početni izbornik</div></br>
 
 ### Spajanje na bazu
 
@@ -111,7 +111,7 @@ Proces zapisivanja u bazu i ažuriranja nešto je drugačiji od procesa čitanja
                 pov.Odspoji();
 ```
 
-<center> Zapisivanje </center>
+<div align="center"> Zapisivanje </div>
 
 ```csharp
  baza.Povezi();
@@ -130,7 +130,7 @@ Proces zapisivanja u bazu i ažuriranja nešto je drugačiji od procesa čitanja
                 baza.Odspoji();
 ```
 
-<center> Ažuriranje </center>
+<div align="center"> Ažuriranje </div>
 <br></br>
 
 # Automatizacija
@@ -160,7 +160,7 @@ RETURN NEW;
 END;
 ```
 
-<center> Okidač za dodavanje novog automobila na skladište </center>
+<div align="center"> Okidač za dodavanje novog automobila na skladište </div>
 <br></br>
 
 ### Vođenje evidencije skladišta
@@ -179,7 +179,7 @@ RETURN NEW;
 END;
 ```
 
-<center> Okidač za vođenje evidencije skladišta </center>
+<div align="center"> Okidač za vođenje evidencije skladišta </div>
 <br>
 
 Osim što se automobil može dodati na skladište, tj. njegovo stanje u skladištu se može povećati ili smanjiti. Okidač se aktivira kada se izvrši "Update" nad stanjem skladišta. Pokuša li korisnik unijeti količinu koja je negativna odmah dobiva upozorenje. Ako je nova količina veća od prijašnje evidentira se da je došlo do porasta količine automobila, ako je nova količina manja od prijašnje evidentira se da je došlo do smanjenja broja automobila. Dodatno je implementirano ako se dogodi da određena količina padne strogo ispod minimalne količine automobila kreće proces naručivanja nove količine automobila koja je definirana kao količina naručivanja koja je zasebna za svaki automobil.
@@ -236,7 +236,7 @@ RETURN NEW;
 END;
 ```
 
-<center> Okidač za evidenciju promjene stanja na skladištu i minimalnih količina </center>
+<div align="center"> Okidač za evidenciju promjene stanja na skladištu i minimalnih količina </div>
 <br>
 
 ### Proces naručivanja automobila
@@ -259,7 +259,7 @@ RETURN NEW;
 END;
 ```
 
-<center> Okidač za kreiranje narudžbe </center>
+<div align="center">Okidač za kreiranje narudžbe </div>
 <br>
 
 ```sql
@@ -275,7 +275,7 @@ RETURN NEW;
 END;
 ```
 
-<center> Okidač za ažuriranje Nabave_Automobila </center>
+<div align="center"> Okidač za ažuriranje Nabave_Automobila </div>
 <br>
 Ovakvim pristupom smo upotpunosti automatizirali bazu podataka što je bio jedan od glavnih ciljeva ovog projekta. Jednostavnost korištenja i smanjenje količine podataka o kojima se korisnik mora brinuti ili voditi evidenciju uvelike olakšava korištenje aplikacije. Kroz ova poglavlja upotpunosti smo pregledali kreiranu bazu i zaokružili cijeli proces rada skladišta, od samog dodavanja automobila na skladište, do nabave novog automobila, evidentiranja i zaprimanja istog na skladište.
 <br></br>
