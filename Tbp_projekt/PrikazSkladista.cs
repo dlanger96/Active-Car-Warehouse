@@ -101,7 +101,7 @@ namespace Tbp_projekt
 
             if (pozicija !=0)
             {
-                if (kolicina >0 )
+                if (kolicina >=0 )
                 {
                     if (poz == "")
                     {
