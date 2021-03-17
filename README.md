@@ -23,7 +23,7 @@ Za realizaciju ovog projekta koristio sam aktivne i temporalne baze podataka, a 
 <img align="center" alt="ERA"  src="https://raw.githubusercontent.com/dlanger96/Active-Car-Warehouse/master/Slike/ERA_TBP.jpg"/>
 <br />
 <br />
-<center>ERA model</center>
+<<div align="center">>ERA model</div>
 
 <br />
 <br/>
