@@ -212,13 +212,13 @@
             this.dgvProizvodac.AllowUserToDeleteRows = false;
             this.dgvProizvodac.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvProizvodac.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProizvodac.Location = new System.Drawing.Point(16, 386);
+            this.dgvProizvodac.Location = new System.Drawing.Point(16, 388);
             this.dgvProizvodac.Margin = new System.Windows.Forms.Padding(4);
             this.dgvProizvodac.Name = "dgvProizvodac";
             this.dgvProizvodac.ReadOnly = true;
             this.dgvProizvodac.RowHeadersWidth = 51;
             this.dgvProizvodac.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvProizvodac.Size = new System.Drawing.Size(487, 185);
+            this.dgvProizvodac.Size = new System.Drawing.Size(1094, 215);
             this.dgvProizvodac.TabIndex = 32;
             this.dgvProizvodac.SelectionChanged += new System.EventHandler(this.dgvProizvodac_SelectionChanged);
             // 
@@ -228,20 +228,20 @@
             this.dgvVrstaAutomobila.AllowUserToDeleteRows = false;
             this.dgvVrstaAutomobila.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvVrstaAutomobila.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVrstaAutomobila.Location = new System.Drawing.Point(21, 620);
+            this.dgvVrstaAutomobila.Location = new System.Drawing.Point(20, 635);
             this.dgvVrstaAutomobila.Margin = new System.Windows.Forms.Padding(4);
             this.dgvVrstaAutomobila.Name = "dgvVrstaAutomobila";
             this.dgvVrstaAutomobila.ReadOnly = true;
             this.dgvVrstaAutomobila.RowHeadersWidth = 51;
             this.dgvVrstaAutomobila.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvVrstaAutomobila.Size = new System.Drawing.Size(481, 185);
+            this.dgvVrstaAutomobila.Size = new System.Drawing.Size(1090, 185);
             this.dgvVrstaAutomobila.TabIndex = 33;
             this.dgvVrstaAutomobila.SelectionChanged += new System.EventHandler(this.dgvVrstaAutomobila_SelectionChanged);
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(12, 352);
+            this.label16.Location = new System.Drawing.Point(13, 367);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(78, 17);
@@ -251,7 +251,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(17, 587);
+            this.label17.Location = new System.Drawing.Point(17, 616);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(114, 17);
@@ -336,10 +336,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Tbp_projekt.Properties.Resources.automobiles_models_icon_collection_74855_5435;
-            this.pictureBox1.Location = new System.Drawing.Point(589, 347);
+            this.pictureBox1.Location = new System.Drawing.Point(1140, 437);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(845, 470);
+            this.pictureBox1.Size = new System.Drawing.Size(629, 383);
             this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
             // 
